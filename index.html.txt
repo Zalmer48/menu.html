@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mesa Rebelde | El Poder de lo Poco Convencional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --negro: #0A0A0A;
+            --verde: #004D3C;
+            --dorado: #C9A227;
+            --blanco: #FFFFFF;
+        }
+
+        body {
+           <h1>Bienvenidos a Mesa Rebelde</h1>
+<p>La mejor sazón de Caracas</p>
+<br>
+<a href="menu.html" class="btn-menu">Ver Menú Detallado</a>
+        }
+
+        /* Hero Section */
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-bottom: 1px solid var(--dorado);
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 4rem;
+            color: var(--dorado);
+            letter-spacing: 12px;
+            margin-bottom: 0;
+        }
+
+        .slogan {
+            font-style: italic;
+            font-size: 1.2rem;
+            letter-spacing: 4px;
+        }
+
+        /* Secciones */
+        section {
+            padding: 100px 10%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .menu-item {
+            border: 1px solid #222;
+            padding: 20px;
+            transition: 0.4s;
+            background: linear-gradient(145deg, #0f0f0f, #050505);
+        }
+
+        .menu-item:hover {
+            border-color: var(--verde);
+            transform: translateY(-10px);
+        }
+
+        .precio {
+            color: var(--dorado);
+            font-family: 'Cinzel', serif;
+            font-weight: bold;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            border: 1px solid var(--dorado);
+            color: var(--dorado);
+            text-decoration: none;
+            font-family: 'Cinzel', serif;
+            letter-spacing: 2px;
+            transition: 0.3s;
+        }
+
+        .cta-button:hover {
+            background: var(--dorado);
+            color: var(--negro);
+        }
+    </style>
+</head><style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    /* Aquí pones el link de tu foto y el degradado */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .btn-menu {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .btn-menu:hover {
+    background-color: #ff3333;
+    transform: scale(1.1);
+  }
+</style>
+<body>
+
+    <header>
+        <h1>LA MESA REBELDE</h1>
+        <p class="slogan">LA COCINA NO SIGUE RECETAS. LAS DESAFÍA.</p>
+        <br><br>
+        <a href="#menu" class="cta-button">VER LA CARTA</a>
+    </header>
+
+    <section id="menu">
+        <h2 style="text-align: center; color: var(--verde); font-family: 'Cinzel'; letter-spacing: 5px;">LA CARTA INSURGENTE</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Pasta del Atelier</h3>
+                <p>Pasta larga hecha a mano con salsa de frutos del mar y láminas de trufa negra[cite: 17].</p>
+                <span class="precio">$40</span>
+            </div>
+            <div class="menu-item">
+                <h3>Tacos de la Rivera</h3>
+                <p>Selección de cuatro tacos de autor con proteína premium y vegetales de temporada[cite: 17].</p>
+                <span class="precio">$28</span>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 50px; border-top: 1px solid #222;">
+        <p style="color: var(--dorado); font-family: 'Cinzel';">EL SABOR NO SE EXPLICA. SE RECONOCE[cite: 167].</p>
+        <p>Las Mercedes, Caracas · 2026 [cite: 168]</p>
+    </footer>
+
+</body>
+</html>
